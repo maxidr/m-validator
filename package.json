@@ -1,0 +1,25 @@
+{
+  "name": "m-validator",
+  "version": "1.0.0",
+  "description": "A simple validator for mithril",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "x"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "mithril"
+  ],
+  "author": "Maximiliano Dello Russo <maxidr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  }
+}
