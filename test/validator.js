@@ -8,7 +8,7 @@ function User(name){
 	this.name = m.prop(name);
 }
 
-var validate = validator(function(model, assert, errors){
+var validate = validator(function(model, errors){
 	if( model.name() !== 'James' ){ errors.add('name', 'name must be James'); }
 });
 

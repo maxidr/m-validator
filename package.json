@@ -2,7 +2,7 @@
   "name": "m-validator",
   "version": "1.0.0",
   "description": "A simple validator for mithril",
-  "main": "index.js",
+  "main": "validator.js",
   "scripts": {
     "lint": "eslint .",
     "test": "tape test/*.js | tap-spec",

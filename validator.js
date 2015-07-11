@@ -7,7 +7,7 @@ module.exports = function(validationFn){
 
 	return function(model){
 		errors.clear();
-		validationFn(model, assert, errors);
+		validationFn(model, errors);
 		return errors.hasAny() ? errors.result() : undefined;
 	};
 
