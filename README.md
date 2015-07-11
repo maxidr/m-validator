@@ -1,0 +1,1 @@
+# A very simple validator object for mithril
