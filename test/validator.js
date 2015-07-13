@@ -28,7 +28,6 @@ test('Validation with one error', function(t){
 
 test('Validation without errors', function(t){
 	var errors = validate( new User('James') );
-	console.log('errors: ' + errors);
 	t.false(errors, 'errors must be false');
 	t.end();
 });
