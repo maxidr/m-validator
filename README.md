@@ -1,8 +1,8 @@
-# A very simple validator object for mithril (or ever any other)
+## A very simple validator object for mithril (or ever any other)
 
-## Example uses
+[![Code Climate](https://codeclimate.com/github/maxidr/m-validator/badges/gpa.svg)](https://codeclimate.com/github/maxidr/m-validator)
 
-### With mithril
+### Example with mithril
 
 ```javascript
 
