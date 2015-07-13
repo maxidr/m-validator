@@ -2,6 +2,8 @@
 
 [![Code Climate](https://codeclimate.com/github/maxidr/m-validator/badges/gpa.svg)](https://codeclimate.com/github/maxidr/m-validator)
 
+[![Build Status](https://travis-ci.org/maxidr/m-validator.svg?branch=master)](https://travis-ci.org/maxidr/m-validator)
+
 ### Example with mithril
 
 ```javascript
