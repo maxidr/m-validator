@@ -6,11 +6,11 @@
   "scripts": {
     "lint": "eslint .",
     "test": "tape test/*.js | tap-spec",
-    "coverage": "covert test/*.js"
+    "coverage": "istanbul cover test/*.js && codeclimate-test-reporter < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
-    "url": "x"
+    "url": "https://github.com/maxidr/m-validator"
   },
   "keywords": [
     "validator",
@@ -20,7 +20,8 @@
   "author": "Maximiliano Dello Russo <maxidr@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "covert": "^1.1.0",
+    "codeclimate-test-reporter": "^0.1.0",
+    "istanbul": "^0.3.17",
     "mithril": "^0.2.0",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
